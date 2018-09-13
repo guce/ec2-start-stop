@@ -1,6 +1,6 @@
 # EC2 Start Stop
 
-Implement EC2 scheduled start and stop with **Lambda golang** & **CloudWatch**.
+Implement EC2 scheduled start and stop with **Lambda golang function** & **CloudWatch**.
 
 
 
