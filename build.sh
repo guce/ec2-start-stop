@@ -9,6 +9,15 @@ build_func() {
 
     echo
     echo "##############################"
+    echo "##### download dependencies"
+    echo "##############################"
+    go get github.com/aws/aws-lambda-go/lambda
+    go get github.com/aws/aws-sdk-go/aws
+    go get github.com/aws/aws-sdk-go/aws/session
+    echo "SUCCESS"
+
+    echo
+    echo "##############################"
     echo "##### build"
     echo "##############################"
     rm -rf $FUNC_NAME
